@@ -1,6 +1,5 @@
 # React task board assigment
-This repository contains a React website built using react js, node js, express and postgres db.
-
+This repository contains a React website built using react js, node js, express and postgres db
 # Scripts
 Run the following on terminal: npm start
 This will start the development server and you can veiw your website on http://localhost:3000.
