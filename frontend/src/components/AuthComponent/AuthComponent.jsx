@@ -28,7 +28,7 @@ const AuthComponent = () => {
         <div className='auth-container'>
             <h2 className='auth-heading'>Login</h2>
             <input className='auth-input' type="text" placeholder="Username" value={lusername} onChange={e => setLusername(e.target.value)} />
-            <input className='auth-input' type="text" placeholder="Email" value={lemail} onChange={e => setLemail(e.target.value)} />            
+            <input className='auth-input' type="text" placeholder="please provide your email id" value={lemail} onChange={e => setLemail(e.target.value)} />            
             <input className='auth-input' type="password" placeholder="Password" value={lpassword} onChange={e => setLpassword(e.target.value)} />
             <button className='auth-button' onClick={handleLogin}>Login</button>
 
